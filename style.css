@@ -8,6 +8,7 @@ h1{
 
 body{
 	font-family:'poppins' ;
+	margin: 0;
 }
 
 section{
@@ -25,7 +26,18 @@ section{
 
 .link{
 	padding:10px 40px;
-	background-color:pink;
+	background-image:linear-gradient(salmon,pink);
 	border-radius:5px;
 	text-decoration:none;
+	font-weight: bold;
+	color: azure;
+}
+
+.paragraph{
+	color:gray;
+}
+
+.top-banner{
+	background-image:url(images/top-banner.png);
+	background-repeat: no-repeat;
 }
