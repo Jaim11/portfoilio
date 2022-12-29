@@ -64,6 +64,12 @@ body {
 	margin: 40px;
 	height: 400px;
 	border-left: 7px solid blue;
+	transition: ease-out 0.4s;
+	cursor: pointer;
+}
+
+#full:hover{
+	box-shadow:0 0 40px rgba(0, 0, 0, 0.7);
 }
 
 #gamer{
@@ -71,6 +77,12 @@ body {
 	margin: 40px;
 	height: 400px;
 	border-left: 7px solid tomato;
+	transition: ease-out 0.4s;
+	cursor: pointer;
+}
+
+#gamer:hover{
+	box-shadow:0 0 40px rgba(0, 0, 0, 0.7);
 }
 
 .experience{
